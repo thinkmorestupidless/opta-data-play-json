@@ -1,0 +1,67 @@
+{
+    "namespace": "less.stupid.opta",
+    "type": "record",
+    "name": "OptaPlayerInfo",
+    "fields": [
+        {
+            "name": "fullName",
+            "type": "string"
+        },
+        {
+            "name": "firstName",
+            "type": "string"
+        },
+        {
+            "name": "lastName",
+            "type": "string"
+        },
+        {
+            "name": "position",
+            "type": "string"
+        },
+        {
+            "name": "birthday",
+            "type": "string"
+        },
+        {
+            "name": "joinDate",
+            "type": "string"
+        },
+        {
+            "name": "birthPlace",
+            "type": "string"
+        },
+        {
+            "name": "nationality",
+            "type": "string"
+        },
+        {
+            "name": "weight",
+            "type": "int"
+        },
+        {
+            "name": "height",
+            "type": "int"
+        },
+        {
+            "name": "jerseyNo",
+            "type": "int"
+        },
+        {
+            "name": "country",
+            "type": "string"
+        },
+        {
+            "name": "realPosition",
+            "type": "string"
+        },
+        {
+            "name": "realPositionSide",
+            "type": "string"
+        },
+        {
+            "name": "preferredFoot",
+            "type": "string"
+        }
+    ]
+}

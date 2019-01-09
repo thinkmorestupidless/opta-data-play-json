@@ -34,7 +34,10 @@ case object Defender extends Position
 case object Midfielder extends Position
 case object Forward extends Position
 
-case class OptaPlayerInfo(position: Position,
+case class OptaPlayerInfo(fullName: String,
+                          firstName: String,
+                          lastName: String,
+                          position: Position,
                           birthday: Instant,
                           joinDate: Instant,
                           birthPlace: String,

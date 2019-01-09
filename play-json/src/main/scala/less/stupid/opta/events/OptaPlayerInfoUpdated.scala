@@ -6,6 +6,9 @@ import less.stupid.opta.Position
 import play.api.libs.json.{Format, Json}
 
 case class OptaPlayerInfoUpdated(playerId: String,
+                                 fullName: String,
+                                 firstName: String,
+                                 lastName: String,
                                  position: Position,
                                  birthday: Instant,
                                  joinDate: Instant,

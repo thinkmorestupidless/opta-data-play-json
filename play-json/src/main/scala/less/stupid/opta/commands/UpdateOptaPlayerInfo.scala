@@ -5,7 +5,10 @@ import java.time.Instant
 import less.stupid.opta.Position
 import play.api.libs.json.{Format, Json}
 
-case class UpdateOptaPlayerInfo(position: Position,
+case class UpdateOptaPlayerInfo(fullName: String,
+                                firstName: String,
+                                lastName: String,
+                                position: Position,
                                 birthday: Instant,
                                 joinDate: Instant,
                                 birthPlace: String,
